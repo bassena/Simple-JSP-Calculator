@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+/*Credit to CGTextures for background image: http://www.cgtextures.com/texview.php?id=14285*/
+body{
+	background-image: url("./images/woodBG.jpg");
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#paperTrail{
+	background-color:#dadada;
+	border:solid 2px;
+	border-bottom:0px;
+	width:13em;
+	height:14.5em;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#errBox{
+	border-radius: 10px;
+	width:30em;
+	height:15em;
+	background-color:rgb(67, 63, 63);
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1.5em;
+	border: solid 2px;
+}
+
+h1{
+	text-align: center;
+}
+
+#errBox p{
+	font-size: 18px;
+	margin-left:1em;
+}
+
+#errBox a{
+	color:orange;
+	text-decoration:none;
+}
+
+#calculator{
+	border-radius: 10px;
+	width:34em;
+	height:24.5em;
+	background-color:rgb(67, 63, 63);
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1.5em;
+	border: solid 2px;
+}
+
+input, button{
+	border:solid 2px;
+}
+
+#numbers{
+	margin-left:1em;
+	font-size:25px;
+}
+
+#numPad{
+	float:left;
+	margin-left:5em;
+	margin-top:2.5em;
+}
+
+#numPad input{
+	font-size:50px;
+}
+
+input[id="0"]{
+	width: 2.1em;
+}
+
+input[id="."]{
+	width:1em;
+}
+
+#operations{
+	float:right;
+	margin-right:3em;
+	margin-top:1em;
+}
+
+#operations input, button{
+	font-size:35px;
+}
+
+#plus-minus, #plus, #multiply, #minus, #divide, #square, #sqrt, #exp{
+	height:1.7em;
+	width:1.7em;
+}
+
+#clearField, #clearAll{
+	width:5em;
+	font-size:25px !important;
+}
