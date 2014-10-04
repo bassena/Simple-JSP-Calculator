@@ -1,4 +1,4 @@
-Simple-JSP-Calculator
+Simple JSP Calculator
 =====================
 
 Just a simple JSP accountant calculator as an MVC.
